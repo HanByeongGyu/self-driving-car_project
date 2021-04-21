@@ -1,5 +1,9 @@
 # self-driving-car_project
 first_project
+
+
+
+
 AlexNet 
 2012년에 개최한 ILSVRC 대회의 우승을 차지했다. 활성화 함수로는 LeNet-5에서 사용되었던 Tanh 함수 대신에 ReLU 함수가 사용되었다. ReLU는 rectified linear unit의 약자이다. 같은 정확도를 유지하면서 Tanh을 사용하는 것보다 6배나 빠르다고 한다. AlexNet 이후에는 활성화함수로 ReLU 함수를 사용하는 것이 선호되고 있다.
 dropout: 과적합(over-fitting)을 막기 위해서 규제 기술의 일종인 dropout을 사용했다. dropout이란 fully-connected layer의 뉴런 중 일부를 생략하면서 학습을 진행하는 것이다[5]. 몇몇 뉴런의 값을 0으로 바꿔버린다. 따라서 그 뉴런들은 forward pass와 back propagation에 아무런 영향을 미치지 않는다. dropout은 훈련시에 적용되는 것이고, 테스트시에는 모든 뉴런을 사용한다.
